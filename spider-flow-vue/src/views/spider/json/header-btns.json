@@ -1,0 +1,184 @@
+[
+    {
+        "type": "ant",
+        "icon": "rollback",
+        "title": "返回列表",
+        "click": {
+            "name": "goPage",
+            "params": "/spider_list"
+        }
+    },
+    {
+        "type": "divider"
+    },
+    {
+        "type": "ant",
+        "icon": "save",
+        "title": "保存（Ctrl+S）",
+        "exeFun": "",
+        "exeFunKey": [
+            "ctrl",
+            "s"
+        ],
+        "click": {
+            "name": "saveAction"
+        }
+    },
+    {
+        "type": "ant",
+        "icon": "play-circle",
+        "title": "测试（Ctrl+Q）",
+        "exeFun": "",
+        "exeFunKey": [
+            "ctrl",
+            "q"
+        ]
+    },
+    {
+        "type": "divider"
+    },
+    {
+        "type": "ant",
+        "icon": "undo",
+        "title": "撤销（Ctrl+Z）",
+        "exeFun": "",
+        "exeFunKey": [
+            "ctrl",
+            "z"
+        ],
+        "click": {
+            "name": "spiderFlowExecute",
+            "params": "undo"
+        }
+    },
+    {
+        "type": "ant",
+        "icon": "redo",
+        "title": "反撤销（Ctrl+Y）",
+        "exeFun": "",
+        "exeFunKey": [
+            "ctrl",
+            "y"
+        ],
+        "click": {
+            "name": "spiderFlowExecute",
+            "params": "redo"
+        }
+    },
+    {
+        "type": "ant",
+        "icon": "history",
+        "title": "历史版本",
+        "click": {
+            "name": "getHistoryVersion"
+        }
+    },
+    {
+        "type": "divider"
+    },
+    {
+        "type": "ant",
+        "icon": "select",
+        "title": "全选（Ctrl+A）",
+        "exeFun": "",
+        "exeFunKey": [
+            "ctrl",
+            "a"
+        ],
+        "click": {
+            "name": "spiderFlowExecute",
+            "params": "selectAll"
+        }
+    },
+    {
+        "type": "ant",
+        "icon": "scissor",
+        "title": "剪切（Ctrl+X）",
+        "exeFun": "",
+        "exeFunKey": [
+            "ctrl",
+            "x"
+        ],
+        "click": {
+            "name": "spiderFlowExecute",
+            "params": "cut"
+        }
+    },
+    {
+        "type": "ant",
+        "icon": "copy",
+        "title": "复制（Ctrl+C）",
+        "exeFun": "",
+        "exeFunKey": [
+            "ctrl",
+            "c"
+        ],
+        "click": {
+            "name": "spiderFlowExecute",
+            "params": "copy"
+        }
+    },
+    {
+        "type": "ant",
+        "icon": "snippets",
+        "title": "粘贴（Ctrl+V）",
+        "exeFun": "",
+        "exeFunKey": [
+            "ctrl",
+            "v"
+        ],
+        "click": {
+            "name": "spiderFlowExecute",
+            "params": "paste"
+        }
+    },
+    {
+        "type": "ant",
+        "icon": "delete",
+        "title": "删除（Delete）",
+        "exeFun": "",
+        "exeFunKey": [
+            "delete"
+        ],
+        "click": {
+            "name": "deleteSelectCells"
+        }
+    },
+    {
+        "type": "divider"
+    },
+    {
+        "type": "ant",
+        "icon": "file-text",
+        "title": "XML编辑",
+        "click": {
+            "name": "showXMLPageHandle"
+        }
+    },
+    {
+        "type": "ant",
+        "icon": "printer",
+        "title": "打印XML",
+        "click": {
+            "name": "printXmlToConsole"
+        }
+    },
+    {
+        "type": "divider"
+    },
+    {
+        "type": "ant",
+        "icon": "bug",
+        "title": "调试"
+    },
+    {
+        "type": "ant",
+        "icon": "step-forward",
+        "title": "下一步"
+    },
+    {
+        "type": "ant",
+        "icon": "stop",
+        "title": "停止"
+    }
+]

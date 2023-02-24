@@ -1,0 +1,130 @@
+{
+    "visibleModel": false,
+    "modelValue": "",
+    "globalParamsConfig": {
+        "title": "参数",
+        "keyPrefix": "parameter",
+        "keys": [
+            "parameter-name",
+            "parameter-value",
+            "parameter-description"
+        ],
+        "columns": [
+            {
+                "title": "参数名",
+                "dataIndex": "parameter-name",
+                "width": 150,
+                "scopedSlots": {
+                    "customRender": "parameter-name"
+                }
+            },
+            {
+                "title": "参数值",
+                "dataIndex": "parameter-value",
+                "width": 250,
+                "scopedSlots": {
+                    "customRender": "parameter-value"
+                }
+            },
+            {
+                "title": "参数描述",
+                "dataIndex": "parameter-description",
+                "scopedSlots": {
+                    "customRender": "parameter-description"
+                }
+            },
+            {
+                "title": "操作",
+                "dataIndex": "operation",
+                "width": 150,
+                "scopedSlots": {
+                    "customRender": "operation"
+                }
+            }
+        ]
+    },
+    "globalCookieConfig": {
+        "title": "Cookie",
+        "keyPrefix": "cookie",
+        "keys": [
+            "cookie-name",
+            "cookie-value",
+            "cookie-description"
+        ],
+        "columns": [
+            {
+                "title": "cookie名",
+                "dataIndex": "cookie-name",
+                "width": 150,
+                "scopedSlots": {
+                    "customRender": "cookie-name"
+                }
+            },
+            {
+                "title": "cookie值",
+                "dataIndex": "cookie-value",
+                "width": 250,
+                "scopedSlots": {
+                    "customRender": "cookie-value"
+                }
+            },
+            {
+                "title": "cookie描述",
+                "dataIndex": "cookie-description",
+                "scopedSlots": {
+                    "customRender": "cookie-description"
+                }
+            },
+            {
+                "title": "操作",
+                "dataIndex": "operation",
+                "width": 150,
+                "scopedSlots": {
+                    "customRender": "operation"
+                }
+            }
+        ]
+    },
+    "globalHeaderConfig": {
+        "title": "Header",
+        "keyPrefix": "header",
+        "keys": [
+            "header-name",
+            "header-value",
+            "header-description"
+        ],
+        "columns": [
+            {
+                "title": "header名",
+                "dataIndex": "header-name",
+                "width": 150,
+                "scopedSlots": {
+                    "customRender": "header-name"
+                }
+            },
+            {
+                "title": "header值",
+                "dataIndex": "header-value",
+                "width": 250,
+                "scopedSlots": {
+                    "customRender": "header-value"
+                }
+            },
+            {
+                "title": "header描述",
+                "dataIndex": "header-description",
+                "scopedSlots": {
+                    "customRender": "header-description"
+                }
+            },
+            {
+                "title": "操作",
+                "dataIndex": "operation",
+                "width": 150,
+                "scopedSlots": {
+                    "customRender": "operation"
+                }
+            }
+        ]
+    }
+}
